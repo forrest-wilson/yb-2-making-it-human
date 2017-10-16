@@ -1,0 +1,23 @@
+{
+  "name": "yb-2-making-it-human",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/forrest-wilson/yb-2-making-it-human.git"
+  },
+  "author": "Forrest Wilson-Jennings",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/forrest-wilson/yb-2-making-it-human/issues"
+  },
+  "homepage": "https://github.com/forrest-wilson/yb-2-making-it-human#readme",
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "normalize.css": "^7.0.0"
+  }
+}

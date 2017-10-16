@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+}
+
+.airline-form {
+    max-width: 700px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+}
+
+fieldset {
+    position: relative;
+}
+
+input[type=text], input[type=date] {
+    padding: 5px 10px;
+    width: 100%;
+}
+
+.where, .toggle-numbers, .travel-class {
+    display: inline-block;
+    width: 49%;
+    position: relative;
+}
+
+.where label, .where input {
+    display: block;
+}
+
+.input {
+    position: relative;
+}
+
+.input .fa {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 6px;
+}
+
+.input input {
+    padding-right: 28px;
+}
+
+.toggle-numbers .where {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.toggle-numbers .where span {
+    padding: 0 5px;
+}
+
+.travel-class {
+    position: absolute;
+}
+
+.travel-class select {
+    width: 100%;
+}
+
+.submit {
+    position: relative;
+}
+
+.submit-button {
+    display: inline-block;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.wrapper label, .wrapper input {
+    display: block;
+    width: 100%;
+}
+
+/* .wrapper {
+    display: inline-block;
+    width: 49%;
+} */
+
+.wrapper section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.wrapper .labels span {
+    display: block;
+}
+
+.wrapper article div {
+    padding: 10px 0;
+    text-align: center;
+}
+
+.submit-button-2 {
+    display: block;
+    margin: 0 auto;
+}
+
+#hidden {
+    display: none;
+}
+
+.wrapper i {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <title>Form Lingusitics</title>
+</head>
+<body>
+    <h1>Airline Form</h1>
+
+    <form class="airline-form">
+        <h2>Book a Trip</h2>
+        <input type="radio" checked>Return</input>
+        <input type="radio">One-Way</input>
+        <input type="radio">Multi-Stop</input>
+        
+        <fieldset>
+            <div class="where">
+                <label for="leave">Where are you coming from?</label>
+
+                <div class="input">
+                    <i class="fa fa-map-marker"></i>
+                    <input type="text" id="leave">
+                </div>
+            </div>
+
+            <div class="where">
+                <label for="destination">Where are you going to?</label>
+
+                <div class="input">
+                    <i class="fa fa-map-marker"></i>
+                    <input type="text" id="destination">
+                </div>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <div class="where">
+                <label for"leave-date">When would you like to leave?</label>
+                <input type="date" id="leave-date">
+            </div>
+
+            <div class="where">
+                <label for="return-date">And your return date?</label>
+                <input type="date" id="return-date">
+            </div>
+        </fieldset>
+
+        <fieldset class="toggle-numbers">
+            <legend>How many will be travelling?</legend>
+            
+            <div class="where">
+                <label>Adult(s)</label>
+            </div>
+
+            <div class="where">
+                <button>-</button>
+                <span>2</span>
+                <button>+</button>
+            </div>
+
+            <div class="where">
+                <label>Child(ren)</label>
+            </div>
+
+            <div class="where">
+                <button>-</button>
+                <span>1</span>
+                <button>+</button>
+            </div>
+
+            <div class="where">
+                <label>Infant(s)</label>
+            </div>
+
+            <div class="where">
+                <button>-</button>
+                <span>0</span>
+                <button>+</button>
+            </div>
+        </fieldset>
+
+        <fieldset class="travel-class">
+            <legend>Travel Class</legend>
+
+            <select>
+                <option>Economy</option>
+                <option>Business Class</option>
+                <option>First Class</option>
+            </select>
+        </fieldset>
+
+        <div class="submit">
+            <button class="submit-button">Show Me My Options</button>
+        </div>
+    </form>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <form id="hidden" class="airline-form">
+        <h1>Book a Trip</h1>
+        <fieldset class="wrapper">
+            <i class="fa fa-map-marker"></i>
+            <label for="leaving">Where are you leaving from?</label>
+            <input id="leaving">
+        </fieldset>
+
+        <fieldset class="wrapper">
+            <label for="arriving">Where are you going to?</label>
+
+            <div>
+                <input id="arriving">
+                <i class="fa fa-map-marker"></i>
+            </div>
+        </fieldset>
+
+        <fieldset class="wrapper">
+            <label for="date-leave">When would you like to leave?</label>
+            <input type="date" id="date-leave">
+        </fieldset>
+
+        <fieldset class="wrapper">
+            <label for="date-come-back">When would you like come back?</label>
+            <input type="date" id="date-come-back">
+        </fieldset>
+
+        <fieldset class="wrapper">
+            <label>How many will be travelling?</label>
+            <section>
+                <article class="labels">
+                    <div>
+                        <span>Adult(s)</span>
+                    </div>
+                    <div>
+                        <span>Child(ren)</span>
+                    </div>
+                    <div>
+                        <span>Infant(s)</span>
+                    </div>
+                </article>
+
+                <article>
+                    <div>
+                        <button>+</button>
+                        <span>2</span>
+                        <button>-</button>
+                    </div>
+
+                    <div>
+                        <button>+</button>
+                        <span>2</span>
+                        <button>-</button>
+                    </div>
+
+                    <div>
+                        <button>+</button>
+                        <span>2</span>
+                        <button>-</button>
+                    </div>
+                </article>
+            </section>
+        </fieldset>
+
+        <fieldset class="wrapper">
+            <button class="submit-button-2">Show Me My Options!</button>
+        </fieldset>
+    </form>
+</body>
+</html>
